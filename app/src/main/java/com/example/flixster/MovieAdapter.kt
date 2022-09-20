@@ -32,13 +32,12 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         private val tvOverview = itemView.findViewById<TextView>(R.id.tvOverview)
 
         fun bind(movie: Movie){
-            Glide.with(context).load("http://via.placeholder.com/300.png").into(ivPoster)
             tvTitle.text = movie.title
             tvOverview.text = movie.overview
             if(ori == "port"){
                 Glide.with(context).load(movie.posterImageUrl).placeholder(R.drawable.loading).into(ivPoster)}
             else if(ori == "land"){
-                Glide.with(context).load(movie.backdropImageUrl).into(ivPoster)}
+                Glide.with(context).load(movie.backdropImageUrl).placeholder(R.drawable.loading).into(ivPoster)}
         }
     }
 
