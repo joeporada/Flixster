@@ -19,7 +19,7 @@
 
 ### App Walkthough GIF
 
-<img src="https://github.com/joeporada/Flixster/blob/master/flixpart2_4.gif" width=250><br>
+<img src="https://github.com/joeporada/Flixster/blob/master/flixpart2_5.gif" width=250><br>
 
 ### Notes
 
